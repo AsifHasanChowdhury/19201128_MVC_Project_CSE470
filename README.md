@@ -4,7 +4,7 @@ The Project has been designed followed by REPOSITORY Pattern
 
 The other helping folders like
 
-1.DTO.(Data Transfer Object)
+1.DTO.(Data Transfer Object) </br>
 2.Exception. (Dealt with Exception class)
 3.Service. (Included All the Service Classes to Communicate with Controller & DTO)
 4.Security. (JWT Provider Implemented)
