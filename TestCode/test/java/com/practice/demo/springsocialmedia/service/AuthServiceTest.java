@@ -48,12 +48,13 @@ class AuthServiceTest {
 
     }
 
-    @Test
+     @Test
     void refreshToken() {
-
+        doThrow(new PostNotFoundException("Comment Not Saved")).when(authService).refreshToken(refreshTokenRequest);
     }
 
     @Test
     void isLoggedIn() {
+        doThrow(new PostNotFoundException("Comment Not Saved")).when(authService).isLoggedIn();
     }
 }
